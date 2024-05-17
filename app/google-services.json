@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "885455789471",
+    "project_id": "smartkisan-5fd62",
+    "storage_bucket": "smartkisan-5fd62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885455789471:android:6468cb15ef960f739a31aa",
+        "android_client_info": {
+          "package_name": "com.example.smartkissan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDyFwaclIYqH_qvn64krIu6HplvJFfn0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

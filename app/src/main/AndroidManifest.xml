@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartKissan"
+        tools:targetApi="31">
+        <activity
+            android:name=".VehicleAdded"
+            android:exported="false" />
+        <activity
+            android:name=".AddVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".Select"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".BookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderSuccess"
+            android:exported="false" />
+        <activity
+            android:name=".NewsFullActivity"
+            android:exported="false" />
+        <activity
+            android:name=".News"
+            android:exported="false" />
+        <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
+            android:name=".Cart"
+            android:exported="false" />
+        <activity
+            android:name=".individual_product"
+            android:exported="false" />
+        <activity
+            android:name=".BuySeeds"
+            android:exported="false" />
+        <activity
+            android:name=".TransportMap"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAsqSfK2EH5aelbB2zzQvDh-B9teWC-RPk" />
+
+        <activity
+            android:name=".Maps"
+            android:exported="false" />
+        <activity
+            android:name=".CropManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TransportConfirmed"
+            android:exported="false" />
+        <activity
+            android:name=".TractorConfirmed"
+            android:exported="false" />
+        <activity
+            android:name=".BookTransport"
+            android:exported="false" />
+        <activity
+            android:name=".BookTractor"
+            android:exported="false" />
+        <activity
+            android:name=".Weather"
+            android:exported="false" />
+        <activity
+            android:name=".AddCrop"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
